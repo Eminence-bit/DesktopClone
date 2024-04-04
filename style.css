@@ -50,6 +50,7 @@ body{
     padding:5px;
     height: 35px;
     width: 35px;
+    cursor:pointer;
 }
 #search{
     padding:5px;
@@ -63,38 +64,45 @@ body{
     padding:15px;
     height: 25px;
     width: 25px;
+    cursor:pointer;
 }
 .edge{
     padding:5px;
     height: 25px;
     width: 25px;
+    cursor:pointer;
 }
 .store{
     padding:5px;
     height: 35px;
     width: 35px;
+    cursor:pointer;
 }
 .vs{
     padding:5px;
     height: 25px;
     width: 25px;
+    cursor:pointer;
 }
 .wifi{
     padding-block:5px;
     height: 15px;
     width: 25px;
+    cursor:pointer;
 }
 .vol{
     padding-block:5px;
     padding-inline: 2px;
     height: 15px;
     width: 15px;
+    cursor:pointer;
 }
 .battery{
     padding-block:1px;
     padding-inline: 2px;
     height: 22px;
     width: 17px;
+    cursor:pointer;
 }
 .time{
     display:flex;
@@ -105,6 +113,7 @@ body{
     position:absolute;
     right:50px;
     padding-inline:15px;
+    cursor:pointer;
 }
 .noti{
     position:absolute;
@@ -112,6 +121,7 @@ body{
     padding-inline: 5px;
     height:25px;
     width:25px;
+    cursor:pointer;
 }
 .menu{
     position:relative;
@@ -179,6 +189,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     color:white;
+    cursor:pointer;
 }
 #more{
     border:solid 0.1px white;
@@ -222,7 +233,8 @@ body{
     width:620px;
     padding-inline: 15px;
     justify-content:space-between;
-    background-color: transparent;
+    background-color: transparent
+    cursor:pointer;
 }
 .profi p{
     font-size: 15px;
@@ -233,6 +245,7 @@ body{
    height:20px;
    width:20px;
    background-color: transparent;
+    cursor:pointer;
 }
 #offline{
     background-color: transparent;
