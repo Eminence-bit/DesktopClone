@@ -1,0 +1,256 @@
+body{
+    background-image:url("icons/zhongli.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: fixed;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.rec{
+    margin: auto;
+    left:0px;
+    height: 50px;
+    width: 50px;
+    overflow: auto;
+}
+.key{
+    right:250px;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    color:white;
+    font-size: 12px;
+}
+.leftc{
+    position:absolute;
+    right:150px;
+    padding-inline:15px;
+}
+.taskbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(700px) saturate(70%);
+    backdrop-filter: blur(700px) saturate(70%);
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #777575;
+}
+#start{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+.start{
+    padding:5px;
+    height: 35px;
+    width: 35px;
+}
+#search{
+    padding:5px;
+    border-radius: 50px;
+    background-color: transparent;
+    height:20px;
+    width:200px;
+    outline:none;
+}
+.file{
+    padding:15px;
+    height: 25px;
+    width: 25px;
+}
+.edge{
+    padding:5px;
+    height: 25px;
+    width: 25px;
+}
+.store{
+    padding:5px;
+    height: 35px;
+    width: 35px;
+}
+.vs{
+    padding:5px;
+    height: 25px;
+    width: 25px;
+}
+.wifi{
+    padding-block:5px;
+    height: 15px;
+    width: 25px;
+}
+.vol{
+    padding-block:5px;
+    padding-inline: 2px;
+    height: 15px;
+    width: 15px;
+}
+.battery{
+    padding-block:1px;
+    padding-inline: 2px;
+    height: 22px;
+    width: 17px;
+}
+.time{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    color:white;
+    font-size: 12px;
+    position:absolute;
+    right:50px;
+    padding-inline:15px;
+}
+.noti{
+    position:absolute;
+    right:20px;
+    padding-inline: 5px;
+    height:25px;
+    width:25px;
+}
+.menu{
+    position:relative;
+    height:0px;
+    width:650px;
+    bottom:10px;
+    left:200px;
+    overflow:hidden;
+    background-color:transparent;
+    -webkit-backdrop-filter: blur(400px) saturate(70%);
+    backdrop-filter: blur(900px) saturate(70%);
+    border-radius: 5px;
+}
+.monk{
+    margin-left:10px;
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+#searchin{
+    position: relative;
+    top:5px;
+    left:10px;
+    width:90%;
+    padding:5px;
+    background-color: transparent;
+    border-radius: 25px;
+    padding-inline:15px;
+    outline:none;
+}
+#aps{
+    border:solid 0.1px white;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(30px) saturate(70%);
+    backdrop-filter: blur(30px) saturate(70%);
+    align-content: center;
+    color:white;
+    margin-top:10px;
+    height:30px;
+    margin-right:10px;
+    border-radius: 5px;
+}
+.pinned{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:630px;
+    height:200px;
+    overflow-y:scroll;
+}
+.imagemenu{
+    height:40px;
+    padding-inline: 25px;
+    padding-block: 5px;
+    width:40px;
+}
+.recommend{
+    height:200px;
+    width:630px;
+}
+.reco{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+#more{
+    border:solid 0.1px white;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur;
+    backdrop-filter: blur;
+    align-content: center;
+    color:white;
+    margin-top:10px;
+    height:30px;
+    border-radius: 5px;
+}
+.recom{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:630px;
+    height:150px;
+    overflow-y:scroll;
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    bottom:-60px;
+    height:50px;
+    width:100%;
+    background-color:rgb(35, 35, 35);
+}
+.prof{
+    position: relative;
+    left:5px;
+    padding-block:13px;
+    height:25px;
+    width:25px;
+
+}
+.profi{
+    display:flex;
+    width:620px;
+    padding-inline: 15px;
+    justify-content:space-between;
+    background-color: transparent;
+}
+.profi p{
+    font-size: 15px;
+    color: white;
+}
+.close{
+    padding-block:15px;
+   height:20px;
+   width:20px;
+   background-color: transparent;
+}
+#offline{
+    background-color: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+#storems{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}   
+.storems{
+    position:relative;
+    left:500px;
+    height:0px;
+    width:750px;
+    background-image: url("icons/store.png");
+    background-size: cover;
+    border-radius: 20px;
+}

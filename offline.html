@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        @keyframes move{
+            0%{
+                transform: translateY(0);
+            }
+            33.33%{
+                transform: translateY(-80px);
+            }
+            66.66%{
+                transform: translateY(80px);
+            }
+        }
+        h1 {
+            font-size: 6rem;
+            text-align: center;
+            background-image: linear-gradient(to right,rgb(205, 148, 205),rgb(84, 201, 247));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(4px 4px 4px rgba(235, 205, 52, 0.5));
+            animation: move 4s ease-in 0s infinite normal forwards;
+        }
+    </style>
+</head>
+<body class="offline"></body>
+    <h1>On Sleep Mode</h1>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(event) {
+  document.body.style.opacity = 1;
+});
+        document.addEventListener('click', () => {
+            document.body.style.opacity = 0;
+            setTimeout(function() {
+                window.location.href = 'index.html'
+  }, 500);
+            
+        })
+    </script>
+</body>
+</html>
